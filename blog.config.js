@@ -4,7 +4,7 @@ const BLOG = {
   email: 'i@shyrz.ch',
   link: 'https://ism.shyrz.ch',
   description: 'Something beautiful, something meaningful.',
-  lang: 'zh-CN',
+  lang: 'en-US',
   appearance: 'light', // ['light', 'dark', 'auto'],
   lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#111827', // use hex value, don't forget '#'
@@ -32,13 +32,13 @@ const BLOG = {
   },
   comment: {
     // support provider: gitalk
-    provider: '', // leave it empty if you don't need any comment plugin
+    provider: 'gitalk', // leave it empty if you don't need any comment plugin
     gitalkConfig: {
-      repo: '', // The repository of store comments
-      owner: '',
+      repo: 'blog-comment', // The repository of store comments
+      owner: 'shyrz',
       admin: [],
-      clientID: '',
-      clientSecret: '',
+      clientID: '48ae35124221bfc15241',
+      clientSecret: 'cda98da2046830ad6ead12c3624e061ed2c0b8d3',
       distractionFreeMode: false
     }
   }
