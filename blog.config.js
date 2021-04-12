@@ -4,10 +4,10 @@ const BLOG = {
   email: 'i@shyrz.ch',
   link: 'https://ism.shyrz.ch',
   description: 'Something beautiful, something meaningful.',
-  lang: 'en-US',
+  lang: 'zh-CN',
   appearance: 'light', // ['light', 'dark', 'auto'],
   lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
-  darkBackground: '#111827', // use hex value, don't forget '#'
+  darkBackground: '#202124', // use hex value, don't forget '#'
   path: '', // leave this empty unless you want to deploy Nobelium in a folder
   since: 2020, // if leave this empty, current year will be used.
   postsPerPage: 7,
@@ -34,7 +34,7 @@ const BLOG = {
     // support provider: gitalk
     provider: 'gitalk', // leave it empty if you don't need any comment plugin
     gitalkConfig: {
-      repo: 'blog-comment', // The repository of store comments
+      repo: 'blog-comments', // The repository of store comments
       owner: 'shyrz',
       admin: [],
       clientID: '48ae35124221bfc15241',
