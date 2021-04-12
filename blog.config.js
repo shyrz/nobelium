@@ -36,7 +36,7 @@ const BLOG = {
     gitalkConfig: {
       repo: 'blog-comments', // The repository of store comments
       owner: 'shyrz',
-      admin: [],
+      admin: ['shyrz'],
       clientID: '48ae35124221bfc15241',
       clientSecret: 'cda98da2046830ad6ead12c3624e061ed2c0b8d3',
       distractionFreeMode: false
