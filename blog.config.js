@@ -3,8 +3,8 @@ const BLOG = {
   author: 'Shyrz',
   email: 'i@shyrz.ch',
   link: 'https://ism.shyrz.ch',
-  description: '',
-  lang: 'zh-Hans',
+  description: 'Something beautiful, something meaningful.',
+  lang: 'zh-CN',
   appearance: 'light', // ['light', 'dark', 'auto'],
   lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#111827', // use hex value, don't forget '#'
