@@ -1,33 +1,33 @@
 const BLOG = {
-  title: 'CRAIGARY',
-  author: 'Craig Hart',
-  email: 'i@craigary.net',
-  link: 'https://nobelium.vercel.app',
-  description: 'This gonna be an awesome website.',
-  lang: 'en-US',
+  title: 'Shyrism',
+  author: 'Shyrz',
+  email: 'i@shyrz.ch',
+  link: 'https://ism.shyrz.ch',
+  description: '',
+  lang: 'zh-Hans',
   appearance: 'auto', // ['light', 'dark', 'auto'],
   lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#111827', // use hex value, don't forget '#'
   path: '', // leave this empty unless you want to deploy Nobelium in a folder
-  since: 2021, // if leave this empty, current year will be used.
+  since: 2020, // if leave this empty, current year will be used.
   postsPerPage: 7,
   showAbout: true, // WIP
   showArchive: true, // WIP
-  socialLink: 'https://twitter.com/craigaryhart',
+  socialLink: 'https://twitter.com/shyrz__',
   seo: {
-    keywords: ['Blog', 'Website', 'Notion'],
+    keywords: ['Blog', 'Column', 'Newsletter', 'RSS', 'Website', 'Notion'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
   },
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS！！！
   analytics: {
-    provider: '', // Currently we support Google Analytics and Ackee, please fill with 'ga' or 'ackee', leave it empty to disable it.
+    provider: 'ga', // Currently we support Google Analytics and Ackee, please fill with 'ga' or 'ackee', leave it empty to disable it.
     ackeeConfig: {
       tracker: '', // e.g 'https://ackee.craigary.net/tracker.js'
       dataAckeeServer: '', // e.g https://ackee.craigary.net , don't end with a slash
       domainId: '' // e.g '0e2257a8-54d4-4847-91a1-0311ea48cc7b'
     },
     gaConfig: {
-      measurementId: '' // e.g: G-XXXXXXXXXX
+      measurementId: 'G-WY1QM2HEQE' // e.g: G-XXXXXXXXXX
     }
   },
   comment: {
